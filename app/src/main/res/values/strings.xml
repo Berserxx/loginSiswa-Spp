@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">siswa</string>
+    <string-array name="tingkatan">
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </string-array>
+
+    <string-array name="tahunAjaran">
+        <item>2021/2022</item>
+        <item>2022/2023</item>
+        <item>2023/2024</item>
+    </string-array>
+</resources>
