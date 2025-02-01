@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.siswa.R;
+import com.example.siswa.activities.PengumumanUnActivity;
 import com.example.siswa.activities.SppDetailActivity;
 import com.example.siswa.model.Menu;
 
@@ -51,6 +52,9 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
                     switch (menu.getNamaMenu()){
                         case "SPP":
                             context.startActivity(new Intent(context, SppDetailActivity.class));
+                            break;
+                        case "Pengumuman UN":
+                            context.startActivity(new Intent(context, PengumumanUnActivity.class));
                             break;
                     }
                 }

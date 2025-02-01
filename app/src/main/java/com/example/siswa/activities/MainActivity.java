@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView rvMenu;
 
-    int[]gambarMenu = {R.drawable.spp};
-    String[]namaMenu = {"SPP"};
+    int[]gambarMenu = {R.drawable.spp,R.drawable.pengumuman};
+    String[]namaMenu = {"SPP","Pengumuman UN"};
     List<Menu>listMenu;
 
     @Override

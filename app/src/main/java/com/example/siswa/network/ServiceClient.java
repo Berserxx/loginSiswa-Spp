@@ -1,6 +1,7 @@
 package com.example.siswa.network;
 
 import com.example.siswa.model.LoginResponse;
+import com.example.siswa.model.PengumumanUnResponse;
 import com.example.siswa.model.SppResponse;
 
 import retrofit2.Call;
@@ -28,4 +29,9 @@ public interface ServiceClient {
                               @Query("tahunAjaran")String tahunAjaran,
                               @Query("kelas")String kelas,
                               @Query("nis")String nis);
+
+    @GET("exec")
+    Call<PengumumanUnResponse> requestHasilUN(@Query("sheetName")String sheetName,
+                                              @Query("action")String action,
+                                              @Query("nis")String nis);
 }
